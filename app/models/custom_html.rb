@@ -10,22 +10,12 @@ class CustomHtml
                                            "fr" => "quelle est votre question? soyez descriptif.",
                                            "pt" => "qual é a sua pergunta? seja descritivo.",
                                            "ja" => "あなたの質問はなんですか？"}
-  key :question_help, Hash, :default => {
-"en" => "Provide as much detail as possible so your question has a greater
-chance of being answered conclusively rather than just discussed. Be clear and simple.",
-"el" => "Δώστε όσες περισσότερες λεπτομέρειες γίνεται ώστε να έχει περισσότερες
-πιθανότητες να απαντηθεί από το να συζητιέται ες αεί.
-Προσπαθήστε να είστε σαφής και απλός.",
-"es" => "Sobre que es tu pregunta?
-provee tantos detalles como puedas para tener más suerte
-de conseguir una respuesta y no una discusion sin fin.
-intenta ser claro y simple",
-"fr" => "Sur quoi porte votre question?
-Donnez autants de détails que possible afin d'avoir plus de chance
-d'obtenir une réponse et non une discussion sans fin. Éssayer d'être clair et simple.",
-"pt" => "",
-"ja" => "できるだけシンプルに、かつ明確にすることで論点が明確になって議論が発展します。そうすることで詳細な回答が受けられるようになります。"
-  }
+  key :question_help, Hash, :default => {"en" => "Provide as much detail as possible so your question has a greater chance of being answered conclusively rather than just discussed. Be clear and simple.",
+                                         "el" => "Δώστε όσες περισσότερες λεπτομέρειες γίνεται ώστε να έχει περισσότερες πιθανότητες να απαντηθεί από το να συζητιέται ες αεί. Προσπαθήστε να είστε σαφής και απλός.",
+                                         "es" => "Sobre que es tu pregunta? provee tantos detalles como puedas para tener más suerte de conseguir una respuesta y no una discusion sin fin. intenta ser claro y simple",
+                                         "fr" => "Sur quoi porte votre question? Donnez autants de détails que possible afin d'avoir plus de chance d'obtenir une réponse et non une discussion sans fin. Éssayer d'être clair et simple.",
+                                         "pt" => "",
+                                         "ja" => "できるだけシンプルに、かつ明確にすることで論点が明確になって議論が発展します。そうすることで詳細な回答が受けられるようになります。"}
 
   key :head, Hash, :default => {}
   key :footer, Hash, :default => {}

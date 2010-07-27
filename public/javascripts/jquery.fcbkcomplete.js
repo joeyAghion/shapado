@@ -582,12 +582,12 @@ jQuery(function($){
                 firstselected: false,
                 filter_case: false,
                 filter_hide: false,
-                complete_text: "Start to typing...",
+                complete_text: "Start typing...",
                 maxshownitems: 30,
                 maxitems: 10,
                 onselect: "",
                 onremove: "",
-		delay: 350,
+                delay: 350,
                 width: null
             }, opt);
 
